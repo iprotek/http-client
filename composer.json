@@ -1,0 +1,14 @@
+{
+    "name": "iprotek/http-client",
+    "description": "A lightweight, enhanced Guzzle-inspired HTTP client optimized for PHP 8.2 with retry, logging, HTTP/2 and async utilities.",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "psr/log": "^1.1 || ^2.0 || ^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iProtek\\HttpClient\\": "src/"
+        }
+    }
+}
