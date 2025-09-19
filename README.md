@@ -16,8 +16,8 @@ A modern, enhanced HTTP client inspired by Guzzle, optimized for **PHP 8.2**.
 
 ## Example
 ```php
-use EnhancedGuzzle\Client;
-use EnhancedGuzzle\HttpMethod;
+use iProtek\HttpClient\Client;
+use iProtek\HttpClient\HttpMethod;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
